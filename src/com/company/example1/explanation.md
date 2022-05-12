@@ -32,3 +32,15 @@
 > 
 > UserRepository -> UserRepository
 
+# 함수의 매개변수 최소화
+
+[BadExample]
+> MakePayment(3500, 10, 3, "nam", "01010101010");
+
+[BetterExample]
+> MakePayment(price:3500, productID:10, Quantity:3,BuyerName:"nam",BuyerPhoneNUmber:"01010101010")
+
+[BestExample]
+> ProductInfo product = new ProductInfo(price:3500, productID:10,Quantity:3);<br>
+> BuyerInfo productBuyer = new BuyerInfo(name:"nam", phoneNumber:"01010101010");<br>
+> MakePayment(product:product, buyer:productBuyer);
