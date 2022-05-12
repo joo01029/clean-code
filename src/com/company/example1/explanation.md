@@ -24,5 +24,11 @@
 # 주석 사용 최소화 하기
 ## 코드 자체만으로 어떤 역할을 하는지 알 수 있게 코드를 작성한다.
 
+# 일관성있는 검색 가능한 이름
 
+>FriendRepo -> FriendRepository
+> 
+> LikeRp -> LikeRepository
+> 
+> UserRepository -> UserRepository
 
