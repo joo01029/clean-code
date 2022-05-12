@@ -44,3 +44,6 @@
 > ProductInfo product = new ProductInfo(price:3500, productID:10,Quantity:3);<br>
 > BuyerInfo productBuyer = new BuyerInfo(name:"nam", phoneNumber:"01010101010");<br>
 > MakePayment(product:product, buyer:productBuyer);
+
+
+# 안쓰는 것들을 삭제
