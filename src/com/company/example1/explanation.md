@@ -19,3 +19,10 @@
 ## 4. 해당 기능 혹은 존재를 정확하게 묘사하는 모호하지 않은 구체적인 이름
 
 >double[] getData(int p) -> XYLv getMeasuredXYLv(int measuredPoint);
+
+
+# 주석 사용 최소화 하기
+## 코드 자체만으로 어떤 역할을 하는지 알 수 있게 코드를 작성한다.
+
+
+
