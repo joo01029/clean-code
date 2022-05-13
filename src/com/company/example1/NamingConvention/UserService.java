@@ -6,6 +6,8 @@ package com.company.example1.NamingConvention;
  */
 public class UserService {
 	private String firstName;
+	//상수는 전부 대문자에 언더스코어로 띄어쓰기를 하는게 좋음
+	private final int MAX_AGE = 20;
 
 	public String getFirstName(){
 		return firstName;
