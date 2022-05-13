@@ -12,5 +12,12 @@ public class UserService {
 	public String getFirstName(){
 		return firstName;
 	}
+
+	public void makeUserServices(){
+		// 특수기호나 숫자의 사용은 피해라
+		UserService userService1 = new UserService();
+		UserService userService2$ = new UserService();
+
+	}
 }
 
